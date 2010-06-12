@@ -23,7 +23,7 @@ class Basecamp {
 	/*=====================*/
 	
 	// Returns the info for the company referenced by id
-	function company($id) {
+	function company($company_id) {
 		return $this->hook("/contacts/company/{$company_id}","company");
 	}
 	
